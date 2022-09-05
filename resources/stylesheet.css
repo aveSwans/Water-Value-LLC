@@ -216,11 +216,26 @@ nav {
 .partners-flex-container {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     margin-bottom: 0;
+}
+
+.logo-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo-row-2 {
+    padding: 2em 0 2em 0;
 }
 
 .partners img{
     max-height: 3em;
+}
+
+#upstream-logo {
+    max-height: 2em;
+    padding-top: .5em;
 }
 
 /*Post Styles*/
@@ -232,7 +247,7 @@ nav {
     flex-direction: column;
 }
 
-.posts-flex-container h2, div {
+.posts-flex-container h2, .posts-flex-container div {
     margin: 0 auto 20px auto;
 }
 
