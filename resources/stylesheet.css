@@ -121,7 +121,7 @@ nav {
 
 /*Hero Styles*/
 .hero {
-    min-height: 75vh;
+    min-height: 80vh;
     background-color: #F2F6F8;
 }
 
@@ -150,13 +150,15 @@ nav {
 /*About Styles*/
 .about {
     margin: 0;
-    top: 100vh;
-    z-index: 1;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .about-flex-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .about-column-one {
@@ -180,6 +182,10 @@ nav {
 }
 
 /*People Styles*/
+.people {
+    min-height: 65vh;
+}
+
 .people-flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -207,10 +213,15 @@ nav {
     margin-top: 5px;
 }
 
+.person-tile-description {
+    margin-left: 3em;
+    padding-top: 2em;
+}
+
 /*Partners Styles*/
 .partners {
     background-color: #F2F6F8;
-    padding: 3vh 5%;
+    padding: 3vh 5% 7vh 5%;
 }
 
 .partners-flex-container {
@@ -218,6 +229,12 @@ nav {
     justify-content: space-between;
     flex-direction: column;
     margin-bottom: 0;
+}
+
+.title-row {
+    display: flex;
+    justify-content: center;
+    min-height: 6em;
 }
 
 .logo-row {
@@ -238,10 +255,16 @@ nav {
     padding-top: .5em;
 }
 
+#water-resiliance-logo {
+    max-height: 4em;
+}
+
 /*Post Styles*/
 .posts {
     padding-bottom: 10vh;
+    padding-top: 10vh;
 }
+
 .posts-flex-container {
     display: flex;
     flex-direction: column;
