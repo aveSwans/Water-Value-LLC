@@ -273,6 +273,10 @@ nav {
     max-height: 5em;
 }
 
+#waterplan-logo {
+    max-height: 2.5em;
+}
+
 /*Post Styles*/
 .posts {
     padding-bottom: 10vh;
